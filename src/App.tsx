@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import List from './components/List'
+import AddToList from './components/AddToList'
 
 interface IState {
   people: {
@@ -28,6 +29,7 @@ function App() {
     <div className="App">
       <h1>People that are invited</h1>
       <List people={people}/>
+      <AddToList />
     </div>
   );
 }
