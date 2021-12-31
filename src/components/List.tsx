@@ -8,10 +8,12 @@ interface ListProps {
   }
 
 
-export default function List({people}: ListProps) {
+const List: React.FC<ListProps> = () => {
     return (
         <div>
             list
         </div>
     )
 }
+
+export default List
