@@ -1,11 +1,4 @@
-interface ListProps {
-    people: {
-      name: string
-      age: number
-      url: string
-      note?: string
-    }[]
-  }
+import {IState as ListProps} from "../App"
 
 
 const List: React.FC<ListProps> = ({people}) => {
